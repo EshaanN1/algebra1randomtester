@@ -287,17 +287,17 @@ function setParper() {
   if (number == 0) {
     correctAnswer = "Parallel";
     random(15);
-    slope1 = number;
-    slope2 = number;
+    slope1 = number + 1;
+    slope2 = number + 1;
   } else if (number == 1) {
     correctAnswer = "Perpendicular";
     random(15);
-    slope1 = number;
-    slope2 = number;
+    slope1 = number + 1;
+    slope2 = number + 1;
   } else {
     correctAnswer = "Neither";
     random(5);
-    slope1 = number;
+    slope1 = number + 1;
     random(5);
     slope2 = number + 7;
   }
