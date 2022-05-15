@@ -305,7 +305,7 @@ function setParper() {
   if (correctAnswer != "Perpendicular") {
     equation2 = "y = " + slope2 + "x + " + intercept2;
   } else {
-    equation2 = "y = x/" + slope2 + " + " + intercept2;
+    equation2 = "y = -x/" + slope2 + " + " + intercept2;
   }
   document.getElementById("questionText2").innerHTML = equation1 + "<br>" + equation2;
 }
